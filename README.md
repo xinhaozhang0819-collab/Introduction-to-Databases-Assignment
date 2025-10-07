@@ -23,7 +23,7 @@ WHERE country = 'Japan'
 ```
 - Result: There are 6 universities from Japan ranked in the global top 200 in 2013.
 
-### 3. Correct University of Oxford’s 2014 score update
+### 3. Update University of Oxford’s 2014 score
 ```sql
 UPDATE university_rankings
 SET score = score + 1.2
